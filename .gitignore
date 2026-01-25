@@ -1,3 +1,59 @@
+# --- Zephyr Build Artifacts ---
+build/
+build_*/
+zephyr/
+modules/
+tools/
+bootloader/
+.sconsign.dblite
+.west
+*.elf
+*.bin
+*.hex
+*.uf2
+*.map
+*.o
+*.obj
+*.a
+*.stat
+
+# --- Generated Configuration Files ---
+# These are created by Kconfig and CMake during 'west build'
+.config
+.config.old
+autoconf.h
+devicetree_generated.h
+zephyr_modules.txt
+kconfig_files.txt
+
+# --- Python and Environment ---
+# For those using virtual environments for 'west'
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+.python-version
+
+# --- IDEs and Editors ---
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Other Editors
+.project
+.cproject
+.settings/
+*.swp
+*~
+.DS_Store
+
 # Prerequisites
 *.d
 
