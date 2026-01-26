@@ -1,3 +1,6 @@
+# secrets
+src/secrets.h
+
 # --- Zephyr Build Artifacts ---
 build/
 build_*/
